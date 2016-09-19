@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
     <title>Micro and Nano Electronics</title>
-
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
-
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Roboto+Slab" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    
+    <!-- Custom CSS -->
 </head>
-
 <body>
-
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -40,19 +35,22 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">News & Events</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="#">Achievements</a>
+                        <a href="speakers.html">Speakers</a>
                     </li>
                     <li>
-                        <a href="#">Courses</a>
+                        <a href="schedule.html">Schedule</a>
                     </li>
                     <li>
-                        <a href="#">People</a>
+                        <a href="advisory.html">Committee</a>
+                    </li>
+                    <li>
+                        <a href="dates.html">Important Dates</a>
                     </li>
                 </ul>
             </div>
@@ -60,79 +58,110 @@
         </div>
         <!-- /.container -->
     </nav>
-
     <!-- Page Content -->
     <div class="container">
-
         <!-- Heading Row -->
-        <div class="row">
-            <div class="col-md-8">
-                <img class="img-responsive img-rounded main_img" src="http://placehold.it/900x350?text=Main+Image" alt="Main Image">
+        <div class="row main" style="background-color: #F8F7FF">
+            <div class="col-md-6">
+                <h5 class="text-center">IEEE MINI COLLOQUIUM ON</h5>
+                <h1 class="title text-center">Emerging Trends in Electronic Systems</h1>
+                <p class="body_info">This mini-colloquium is organised by School of Electronics Engineering, VIT University, Vellore in association with six IEEE student chapters namely Electronic and Devices Society (EDS), Circuits and Systems Society (CAS),  Microwave Theory and Techniques Society (MTT-S), Signal Processing Society (SPS), Communications Society (COMSOC) and Engineering in Medicine and Biology Society (EMBS). The aim of the colloquium was to provide an global forum to the engineers, scientists and academicians, especially to young researchers from developing countries, to exchange their new ideas, explore emerging directions in the fields of electronic devices, circuits and systems, microwave techniques, signal processing, communication and engineering in biomedical sciences. The event brought theorists and experimentalists on a common forum to inspire exciting current aspects of electronics and communication engineering and to foster inter-disciplinary research in the field of science and technology.</p>
+                <a class="btn btn-primary btn-lg" href="register.html">Register</a>
+                
             </div>
             <!-- /.col-md-8 -->
-            <div class="col-md-4">
-                <h1 class="title">Department of Nano and Micro Electronics</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis tristique felis, quis ornare turpis. Quisque nec sapien eu nibh ultrices vehicula. Quisque ac risus quis ex interdum lacinia quis sit amet leo. Vivamus ac hendrerit dolor, accumsan vulputate elit. Donec mattis nunc ac erat tincidunt, at consequat sem semper. Donec ullamcorper ullamcorper nunc, vel sagittis est facilisis quis. Aenean in sem varius, tincidunt erat a, vehicula odio. Integer sed vestibulum urna. Cras vel finibus mi. Sed ullamcorper dui vitae eros tincidunt, sit amet malesuada turpis imperdiet.</p>
-                <a class="btn btn-primary btn-lg" href="#">Register</a>
+            <div class="col-md-6" style="padding-top: 10px">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                  </ol>
+                 
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="pics/car1.JPG" alt="...">
+                    </div>
+                    <div class="item">
+                      <img src="pics/car2.JPG" alt="...">
+                    </div>
+                    <div class="item">
+                      <img src="pics/car3.JPG" alt="...">
+                    </div>
+                    <div class="item">
+                      <img src="pics/car4.JPG" alt="...">
+                    </div>
+                    <div class="item">
+                      <img src="pics/car5.JPG" alt="...">
+                    </div>
+                  </div>
+                 
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div> <!-- Carousel -->
             </div>
             <!-- /.col-md-4 -->
         </div>
         <!-- /.row -->
-
-        <hr>
-
         <!-- Call to Action Well -->
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row" style="background-color: #F8F7FF">
+            <div class="col-lg-12" style="padding-top: 10px;">
                 <div class="well text-center">
-                    Any Notification will appear here!
+                    Last Date for Registration: 12th October 2016
                 </div>
             </div>
             <!-- /.col-lg-12 -->
         </div>
         <!-- /.row -->
-
+        <hr>
         <!-- Content Row -->
         <div class="row">
-            <div class="col-md-4">
-                <h2 class="title">Event 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
-                <a class="btn btn-default" href="#">More Info</a>
+            <div class="col-md-6">
+                <h3 class="title">Contact Us</h3>
+                <h5>Dr.V Thanikaiselvam</h5>
+                <h5>Associate Professor, Dept. of Communication Engineering</h5>
+                <h5>VIT UNIVERSITY, Vellore-14</h5>
+                <h5>Phone: +91 880 771 7720</h5>
+                <h5>Email: thanikaiselvam@vit.ac.in</h5>   
+            </div>
+            <div class="col-md-6 text-right">
+                <h3 class="title">Organised By</h3>
+                <h4>Department of Micro and Nanoelectronics</h4>
+                <h5>School of Electronics Engineering</h5>
+                <h5>VIT UNIVERSITY, Vellore-14</h5>
             </div>
             <!-- /.col-md-4 -->
-            <div class="col-md-4">
-                <h2 class="title">Event 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
-                <a class="btn btn-default" href="#">More Info</a>
-            </div>
-            <!-- /.col-md-4 -->
-            <div class="col-md-4">
-                <h2 class="title">Event 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
-                <a class="btn btn-default" href="#">More Info</a>
             </div>
             <!-- /.col-md-4 -->
         </div>
         <!-- /.row -->
-
+        <hr>
         <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
+        <footer class="panel-footer">
+            <div class="row text-center">
+            <div class="col-md-12">
+                <h5>In Association with</h5>
+                <img src="pics/logo/1.JPG" style="width: 60px;padding-right:10px;">
+                <img src="pics/logo/2.gif" style="width: 60px;padding-right:10px;">
+                <img src="pics/logo/3.png" style="width: 60px;padding-right:10px;">
+                <img src="pics/logo/4.png" style="width: 100px;height: 35px;padding-right:10px;">
+                <img src="pics/logo/5.jpg" style="width: 60px;padding-right:10px;">
+                <img src="pics/logo/6.png" style="width: 60px;padding-right:10px;">
+                <img src="pics/logo/7.jpg" style="width: 60px;">
                     <p>Copyright &copy; VIT UNIVERSITY</p>
                 </div>
             </div>
         </footer>
-
     </div>
     <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
 </body>
-
 </html>
